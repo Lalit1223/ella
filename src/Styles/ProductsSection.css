@@ -1,0 +1,29 @@
+.products-section {
+    padding: 60px 20px;
+    background-color: #FDE3A7;
+  }
+  
+  .products-section h2 {
+    text-align: center;
+    color: #1A472A;
+    font-weight: bold;
+  }
+  
+  .product {
+    background-color: #C3CCEB;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+  }
+  
+  .product h3 {
+    color: #1A472A;
+    font-weight: bold;
+  }
+  
+  .product p {
+    color: #1A472A;
+    margin: 10px 0;
+  }
+  

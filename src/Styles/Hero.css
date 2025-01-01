@@ -1,0 +1,24 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background: linear-gradient(135deg, #C3CCEB, #FDE3A7);
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .hero-content {
+    color: #1A472A;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,25 @@
+.sustainability-section {
+    padding: 60px 20px;
+    background-color: #C3CCEB;
+    text-align: center;
+  }
+  
+  .sustainability-section h2 {
+    color: #1A472A;
+    font-weight: bold;
+  }
+  
+  .sustainability-section p {
+    margin: 20px auto;
+    color: #1A472A;
+    max-width: 700px;
+    font-size: 1.2rem;
+  }
+  
+  .sustainability-section img {
+    margin-top: 20px;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
