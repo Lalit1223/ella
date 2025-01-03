@@ -22,7 +22,7 @@
 .sustainability-section p {
   color: #1A472A;
   margin-bottom: 1.5rem;
-    font-size: 1rem !important;
+    font-size: 1.1rem !important;
     line-height: 1.5 !important;
 }
 
@@ -32,6 +32,6 @@
 
 @media (min-width: 768px) {
   .banner-image {
-    width: 50%; /* Adjust width for larger screens */
+    width: 100%; /* Adjust width for larger screens */
   }
 }

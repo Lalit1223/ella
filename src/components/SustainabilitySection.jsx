@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/SustainabilitySection.css";
-import banner from "../assets/sus2.jpg";
+import banner from "../assets/sus3.jpg";
 
 const SustainabilitySection = () => {
   return (

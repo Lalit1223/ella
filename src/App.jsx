@@ -7,6 +7,7 @@ import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 import "./App.css";
 import HeroSection from "./components/HeroSection";
+import ProductCarousel from "./components/ProductCarousel";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <HeroSection />
       <AboutSection />
       <ProductsSection />
+      <ProductCarousel />
       <SustainabilitySection />
       <ContactSection />
       <Footer />

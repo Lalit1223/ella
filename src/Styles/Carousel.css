@@ -1,0 +1,28 @@
+.carousel-section {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .carousel-section h2 {
+    color: #1A472A;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto; /* Preserve the aspect ratio */
+    object-fit: contain; /* Ensures the full image is displayed without cropping */
+    max-height: 400px; /* Optional: set a max-height to control the image's height */
+    margin: 0 auto; /* Center the image */
+    border-radius: 8px; /* Optional for rounded corners */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(26, 71, 42, 0.7); /* Dark green background for controls */
+    border-radius: 50%;
+    padding: 10px;
+  }
+  

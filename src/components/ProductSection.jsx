@@ -1,12 +1,12 @@
 import React from "react";
 import "../Styles/ProductsSection.css";
 
-import carryBagImage from "../assets/1.png";
-import trashBagImage from "../assets/2.png";
-import medicalWasteBagImage from "../assets/3.png";
-import nurseryBagImage from "../assets/4.png";
-import cutleryImage from "../assets/5.png";
-import glassStrawImage from "../assets/6.png";
+import carryBagImage from "../assets/4.png";
+import trashBagImage from "../assets/5.png";
+import medicalWasteBagImage from "../assets/1.png";
+import nurseryBagImage from "../assets/3.png";
+import cutleryImage from "../assets/6.png";
+import glassStrawImage from "../assets/2.png";
 
 const ProductsSection = () => {
   return (
