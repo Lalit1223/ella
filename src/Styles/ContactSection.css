@@ -6,8 +6,7 @@
   
   .contact-section h2 {
     text-align: center;
-    font-weight: bold;
-    color: #C2E08D;
+    color: #fff;
   }
   
   form {
@@ -27,14 +26,13 @@
   
   form button {
     padding: 10px 20px;
-    background-color: #C2E08D;
+    background-color: #fff !important;
     border: none;
-    color: #1A472A;
     font-weight: bold;
     border-radius: 5px;
   }
   
   form button:hover {
-    background-color: #FDE3A7;
+    background-color: #a7fdae56 !important;
   }
   

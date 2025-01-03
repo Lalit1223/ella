@@ -1,0 +1,22 @@
+html{
+  font-family: 'Arial, sans-serif' !important; /* Replace with your preferred font */
+
+}
+h1, h2, h3 {
+    margin: 0 !important;
+  }
+  
+  h1 {
+    font-size: 4.5rem !important;
+  }
+  
+  h2 {
+    font-size: 2.5rem !important;
+  }
+  
+  h3 {
+    font-size: 1.5rem !important ;
+  }
+  
+  
+  

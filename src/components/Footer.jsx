@@ -3,8 +3,8 @@ import "../Styles/Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <p>© 2024 Eeela. All rights reserved.</p>
+    <footer className="footer py-3">
+      <p>&copy; {new Date().getFullYear()} Eeela. All rights reserved.</p>
     </footer>
   );
 };

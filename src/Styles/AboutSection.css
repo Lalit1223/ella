@@ -1,25 +1,36 @@
-.about-section {
-    padding: 60px 20px;
-    background-color: #C2E08D;
+
+  .about-section {
+    position: relative;
     text-align: center;
-  }
-  
-  .about-section h2 {
-    color: #1A472A;
-    font-weight: bold;
-  }
-  
-  .about-section p {
-    color: #fff;
-    font-size: 1.2rem;
-    margin: 20px auto;
-    max-width: 700px;
+    background-color: #C2E08D;
+    padding: 2rem 0;
   }
   
   .about-section img {
-    margin-top: 20px;
-    width: 100%;
-    max-width: 600px;
-    border-radius: 8px;
+    width: 100%; /* Full width of the device */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure it fills the width */
+    display: block;
+    margin: 0 auto; /* Center align the image */
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    color: #1A472A; /* Matches your preferred dark green */
+  }
+  
+  .about-section p {
+    color: #333; /* Adjust for readability */
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem !important;
+    line-height: 1.5 !important;
+  }
+  
+  
+  
+  @media (min-width: 768px) {
+    .about-section img {
+      width: 100%; /* Adjust width for larger screens */
+    }
   }
   

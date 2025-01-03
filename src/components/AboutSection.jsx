@@ -1,16 +1,19 @@
 import React from "react";
 import "../Styles/AboutSection.css";
+import banner from "../assets/about banner.png";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="about-section">
-      <h2>About Eeela</h2>
-      <p>
-        Eeela is committed to creating innovative, compostable solutions that
-        contribute to a greener planet. Our products are designed with the
-        environment in mind, helping to reduce waste and promote sustainability.
-      </p>
-      <img src="/about-image.jpg" alt="About Eeela" />
+    <section id="about" className="about-section py-5">
+      <div className="container text-center">
+        <h2 className="mb-4">About Eeela</h2>
+        <p>
+          Eeela is dedicated to providing high-quality, compostable products
+          that support sustainable living. Our range of products ensures that
+          you contribute to a healthier planet while meeting your daily needs.
+        </p>
+      </div>
+      <img src={banner} alt="About Eeela Banner" />
     </section>
   );
 };
