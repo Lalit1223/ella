@@ -6,9 +6,9 @@ const ContactSection = () => {
     <section id="contact" className="contact-section py-5">
       <div className="container">
         <div className="row">
-          <div className="col-md-6 mb-4">
+          <div className="col-md-6">
             <form>
-              <h2 className="text-center mb-4">Connect Us</h2>
+              <h2 className="text-center">Connect</h2>
 
               <div className="mb-3">
                 <input
@@ -39,7 +39,7 @@ const ContactSection = () => {
               </button>
             </form>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 mt-5 ">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.195098840743!2d73.8317921742374!3d18.520083669191038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf846992d3ab%3A0xd7681f745e8097f5!2sShri%20Mahavir%20Jain%20Vidyalaya!5e0!3m2!1sen!2sin!4v1735925220454!5m2!1sen!2sin"
               width="100%"

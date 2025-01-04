@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/Footer.css";
+import logo from "../assets/eeela 4040.png";
 
 const Footer = () => {
   return (
@@ -22,7 +23,8 @@ const Footer = () => {
       </div>
       <div className="text-center mt-2">
         <p className="copyright">
-          &copy; {new Date().getFullYear()} Eeela. All rights reserved.
+          <img src={logo} alt="About Eeela Banner" /> &copy;{" "}
+          {new Date().getFullYear()} Eeela. All rights reserved.
         </p>
       </div>
     </footer>

@@ -1,5 +1,5 @@
 .footer {
-  background-color: #C2E08D;
+  background-color: #fff;
   color: #1A472A; /* Slightly transparent white text */
   padding: 10px 20px; /* Compact padding for a slim design */
   font-size: 0.85rem;
@@ -34,7 +34,7 @@
 }
 
 .copyright {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: #1A472A; /* Slightly transparent white text */
   margin-top: 10px;
   opacity: 0.6;
