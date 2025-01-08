@@ -7,7 +7,9 @@ const HeroSection = () => {
       <div className="container">
         <div className="hero-content">
           <h1>Welcome to Eeela</h1>
-          <p>Your partner in eco-friendly, compostable products.</p>
+          <p>
+            Your Partner in Eco-Friendly, Degradable and Compostable Products
+          </p>
         </div>
       </div>
     </section>

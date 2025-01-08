@@ -15,14 +15,14 @@
   }
   
   .about-section h2 {
-    font-size: 2rem;
+    font-size: 2rem !important;
     color: #1A472A; /* Matches your preferred dark green */
   }
   
   .about-section p {
     color: #333; /* Adjust for readability */
     margin-bottom: 1.5rem;
-    font-size: 1.5rem !important;
+    font-size: 1.1rem !important;
     line-height: 1.5 !important;
   }
   
@@ -33,4 +33,17 @@
       width: 100%; /* Adjust width for larger screens */
     }
   }
-  
+
+  @media (max-width: 768px) {
+
+    
+    .about-section p {
+      font-size: 1rem !important; /* Smaller font size for paragraph */
+      line-height: 1.1 !important;
+    }
+
+    .about-section h2{
+      font-size: 1.5rem !important; /* Smaller font size for heading */
+
+    }
+  }

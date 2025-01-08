@@ -15,8 +15,7 @@
 
 .sustainability-section h2 {
   color: #1A472A;
-  font-size: 2rem;
-  margin-bottom: 20px;
+  font-size: 2rem !important;
 }
 
 .sustainability-section p {
@@ -35,3 +34,24 @@
     width: 100%; /* Adjust width for larger screens */
   }
 }
+
+
+@media (max-width: 768px) {
+
+    
+  .sustainability-section p {
+    font-size: 1rem !important; /* Smaller font size for paragraph */
+    line-height: 1.1 !important;
+  }
+
+  .sustainability-section h2{
+    font-size: 1.5rem !important; /* Smaller font size for heading */
+
+  }
+  .sustainability-section h3{
+    font-size: 1.2rem !important; /* Smaller font size for heading */
+
+
+  }
+}
+

@@ -1,38 +1,95 @@
 .contact-section {
-    padding: 60px 20px;
-    background-color: #1A472A;
-    color: #fff;
+  padding: 60px 20px;
+  background-color: #1A472A;
+  color: #fff;
+  text-align: center;
+}
+
+.contact-section h2 {
+  color: #fff;
+  font-size: 2rem !important;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #1A472A;
+  font-size: 1rem;
+}
+
+form textarea {
+  resize: none; /* Disable resizing for better design consistency */
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #999;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #fff !important;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #1A472A;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #C2E08D !important;
+  color: #fff;
+}
+
+.social-icons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a,
+.social-icons .cart-icon {
+  font-size: 1.8rem;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover,
+.social-icons .cart-icon:hover {
+  color: #C2E08D; /* Light green hover effect */
+}
+
+
+
+@media (max-width: 768px) {
+
+    
+  .contact-section p {
+    font-size: 1rem !important; /* Smaller font size for paragraph */
+    line-height: 1.1 !important;
   }
-  
-  .contact-section h2 {
-    text-align: center;
-    color: #fff;
+
+  .contact-section h2{
+    font-size: 1.5rem !important; /* Smaller font size for heading */
+
   }
-  
-  form {
-    max-width: 500px;
-    margin: 20px auto;
-    text-align: center;
+  .contact-section h3{
+    font-size: 1rem !important; /* Smaller font size for heading */
+
+
   }
-  
-  form input,
-  form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  form button {
-    padding: 10px 20px;
-    background-color: #fff !important;
-    border: none;
-    font-weight: bold;
-    border-radius: 5px;
-  }
-  
-  form button:hover {
-    background-color: #a7fdae56 !important;
-  }
-  
+}

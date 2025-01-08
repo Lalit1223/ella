@@ -43,8 +43,63 @@
     height: 95%;
     background: url("../assets/rb_17149.png") no-repeat center center;
     background-size: contain;
-    animation: float 4s ease-in-out infinite;
-    opacity: 0.4;
+    animation: float 5s ease-in-out infinite;
+    opacity: 0.6;
     pointer-events: none;
   }
+  
+
+  .hero p {
+    font-size: 1.5rem !important;
+    line-height: 1.5 !important;
+    opacity: 0; /* Start invisible */
+    transform: translateY(20px); /* Start slightly below */
+    animation: fadeInUp 2s ease-out forwards; /* Trigger the animation */
+  }
+  
+  /* Keyframes for the fade-in and upward motion */
+  
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px) scale(0.95); /* Start smaller */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1); /* Scale to full size */
+    }
+  }
+
+
+
+
+  /* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  .hero {
+    height: 45vh; /* Reduce hero section height */
+    text-align: center;
+     padding: 0 20px;
+  }
+
+  .hero h1 {
+    font-size: 2rem !important; /* Smaller font size for heading */
+  }
+
+  .hero p {
+    font-size: 1rem !important; /* Smaller font size for paragraph */
+    line-height: 1.2 !important;
+  }
+
+  .hero::after {
+    width: 100%; /* Larger width to fill gaps in smaller screens */
+    height: 100%; /* Larger height for seamless coverage */
+    background: url("../assets/rb_17149.png")  ; /* Repeat background */
+    background-size: contain; /* Adjust naturally */
+    animation: float 4s ease-in-out infinite; /* Retain animation */
+    top:0;
+    left: 0;
+  }
+}
+
   

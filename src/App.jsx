@@ -8,6 +8,11 @@ import Footer from "./components/Footer";
 import "./App.css";
 import HeroSection from "./components/HeroSection";
 import ProductCarousel from "./components/ProductCarousel";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+import Resources from "./components/Resources";
 
 const App = () => {
   return (
@@ -18,6 +23,7 @@ const App = () => {
       <ProductsSection />
       <ProductCarousel />
       <SustainabilitySection />
+      <Resources />
       <ContactSection />
       <Footer />
     </div>

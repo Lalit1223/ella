@@ -4,6 +4,7 @@
     align-items: center;
     padding: 15px 30px;
     background-color: #1A472A;
+    z-index: 1;
   }
   
   .logo {

@@ -6,7 +6,7 @@
   
   .carousel-section h2 {
     color: #1A472A;
-    font-size: 2rem;
+    font-size: 2rem !important;
     margin-bottom: 20px;
   }
   
@@ -24,5 +24,25 @@
     background-color: rgba(26, 71, 42, 0.7); /* Dark green background for controls */
     border-radius: 50%;
     padding: 10px;
+  }
+
+
+  @media (max-width: 768px) {
+
+    
+    .carousel-section p {
+      font-size: 1rem !important; /* Smaller font size for paragraph */
+      line-height: 1.1 !important;
+    }
+  
+    .carousel-section h2{
+      font-size: 1.5rem !important; /* Smaller font size for heading */
+  
+    }
+    .carousel-section h3{
+      font-size: 1.2rem !important; /* Smaller font size for heading */
+  
+  
+    }
   }
   

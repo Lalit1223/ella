@@ -1,0 +1,99 @@
+.awards-carousel-section {
+  padding: 60px 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.awards-carousel-section h2 {
+  color: #1a472a;
+  font-size: 2rem !important;
+  margin-bottom: 20px;
+}
+
+.carousel-item {
+  padding: 15px;
+}
+
+.award-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Ensure text stays below image */
+  padding: 20px;
+  height: 300px; /* Set a consistent height */
+  max-width: 100%; /* Prevent cards from being too wide */
+  display: flex;
+  flex-direction: column;
+}
+
+.award-card img {
+  width: 100%;
+  max-height: 180px; /* Set a max-height to avoid image size issues */
+  object-fit: contain; /* Ensure the image is fully contained without cropping */
+  margin-bottom: 10px; /* Space between image and caption */
+}
+
+.award-card .caption {
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.slick-dots li button:before {
+  color: #1a472a;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #1a472a;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .awards-carousel-section h2 {
+    font-size: 1.5rem !important; /* Smaller font size for heading */
+  }
+
+  .awards-carousel-section h3 {
+    font-size: 1.2rem !important; /* Smaller font size for subheading */
+  }
+
+  .award-card {
+    padding: 15px; /* Reduced padding */
+    height: auto; /* Allow flexible height on mobile */
+    margin: 0 10px; /* Reduce space between cards */
+  }
+
+  .award-card img {
+    max-height: 150px; /* Adjust image size for mobile */
+    object-fit: contain;
+  }
+
+  .award-card .caption {
+    font-size: 0.8rem !important; /* Smaller font size for caption */
+  }
+
+  /* Ensure Slick carousel is responsive */
+  .slick-slide {
+    flex: 1; /* Allow each slide to grow on smaller screens */
+  }
+
+  /* Adjust dots size for mobile */
+  .slick-dots li button {
+    width: 12px;
+    height: 12px;
+  }
+
+  .slick-dots li button:before {
+    font-size: 8px; /* Smaller dots for mobile */
+  }
+}

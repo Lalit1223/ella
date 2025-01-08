@@ -6,19 +6,15 @@ const SustainabilitySection = () => {
   return (
     <section id="sustainability" className="sustainability-section">
       <div className="container">
-        <h2>Sustainability</h2>
+        <h2 className="mb-2">Sustainability</h2>
         <p>
-          At Eeela, we focus on reducing waste and supporting a greener planet.
-          Our products are designed to decompose naturally, leaving a minimal
-          carbon footprint. Our choices are always aimed at minimizing our
-          environmental impact, from the materials design, to the supply chain,
-          in the production of containers and their disposal. Also in this
-          fields we are at the forefront with 100% LED lighting and brightness
-          and presence control. Innovations on proprietary production systems
-          and air conditioning & cooling systems have allowed us to reduce the
-          consumption of electricity per unit produced by 54% compared to 2018.
-          Our buildings are designed according to bioclimatic criteria to reduce
-          energy consumption for the lighting and air conditioning at its root.
+          “Development that meets the needs of the present without compromising
+          the ability of future generations to meet their own needs “ (World
+          Commission of Environment and Development, 1987) With our Philosophy –
+          ‘Nature as Guideline, Plastics as Passion &amp; Customers as
+          Partners’, we aim to be a global technology leader and a solution
+          provider for sustainable polymer materials and work towards a greener
+          planet.
         </p>
       </div>
       <div className="banner-container">

@@ -1,0 +1,65 @@
+.resources-section {
+    padding: 60px 20px;
+    background-color: #F5F5F5;
+  }
+  
+  .resources-section h2 {
+    color: #1A472A;
+    font-size: 2rem !important;
+    margin-bottom: 20px;
+  }
+  
+  .resources-section h3{
+    font-size: 1.2rem !important; /* Smaller font size for heading */
+
+
+  }
+  .resources-section .nav-tabs .nav-link {
+    color: #1A472A;
+    font-weight: bold;
+    margin: 0 5px;
+  }
+  
+  .resources-section .nav-tabs .nav-link.active {
+    background-color: #C2E08D;
+    color: #fff;
+    border: none;
+  }
+  
+  .certifications-awards ul,
+  .bio-polymers p,
+  .why-eeela p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .certifications-awards ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .bio-polymers p,
+  .why-eeela p {
+    margin-bottom: 10px;
+  }
+  
+
+  @media (max-width: 768px) {
+
+    
+    .resources-section p {
+      font-size: 1rem !important; /* Smaller font size for paragraph */
+      line-height: 1.1 !important;
+    }
+  
+    .resources-section h2{
+      font-size: 1.5rem !important; /* Smaller font size for heading */
+  
+    }
+    .resources-section h3{
+      font-size: 1rem !important; /* Smaller font size for heading */
+  
+  
+    }
+  }

@@ -7,6 +7,8 @@
   text-align: center;
   color: #1A472A;
   margin-bottom: 30px;
+  font-size: 2rem !important;
+
 }
 
 .product {
@@ -42,4 +44,24 @@
 .card-body {
   padding: 10px;
   text-align: center;
+}
+
+
+@media (max-width: 768px) {
+
+    
+  .products-section p {
+    font-size: 1rem !important; /* Smaller font size for paragraph */
+    line-height: 1.1 !important;
+  }
+
+  .products-section h2{
+    font-size: 1.5rem !important; /* Smaller font size for heading */
+
+  }
+  .products-section h3{
+    font-size: 1.2rem !important; /* Smaller font size for heading */
+
+
+  }
 }
