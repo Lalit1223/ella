@@ -73,6 +73,15 @@ form button:hover {
   color: #C2E08D; /* Light green hover effect */
 }
 
+.status-message {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #1A472A; /* Green for success */
+}
+
+.status-message.error {
+  color: red; /* Red for errors */
+}
 
 
 @media (max-width: 768px) {
