@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/SustainabilitySection.css";
-import banner from "../assets/sus3.jpg";
+import banner from "../assets/eeela earth1.png";
 
 const SustainabilitySection = () => {
   return (
@@ -17,13 +17,7 @@ const SustainabilitySection = () => {
           planet.
         </p>
       </div>
-      <div className="banner-container">
-        <img
-          src={banner}
-          alt="Sustainability Banner"
-          className="banner-image"
-        />
-      </div>
+      <img src={banner} alt="Sustainability Banner" className="banner-image" />
     </section>
   );
 };

@@ -1,0 +1,17 @@
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Ensures the entire image is displayed */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .slick-dots li button:before {
+    color: #1a472a;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #1a472a;
+  }
+  

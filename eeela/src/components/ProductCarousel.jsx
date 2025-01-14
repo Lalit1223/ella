@@ -1,14 +1,14 @@
 import React from "react";
 import "../Styles/Carousel.css";
-import product1 from "../assets/ca (1).png";
-import product2 from "../assets/ca (2).png";
-import product3 from "../assets/ca (4).png";
-import product4 from "../assets/9 (1).png";
-import product5 from "../assets/9 (2).png";
-import product6 from "../assets/ca (3).png";
-import product7 from "../assets/9 (3).png";
-import product8 from "../assets/9 (4).png";
-import product9 from "../assets/1.png";
+import product1 from "../assets/graphics0.1.png";
+import product2 from "../assets/graphics2.png";
+import product3 from "../assets/graphics3.png";
+import product4 from "../assets/graphics4.png";
+import product5 from "../assets/graphics5.png";
+import product6 from "../assets/graphic6.png";
+import product7 from "../assets/graphic7.png";
+import product8 from "../assets/graphic8.png";
+// import product9 from "../assets/1.png";
 
 const ProductCarousel = () => {
   return (
@@ -45,9 +45,9 @@ const ProductCarousel = () => {
             <div className="carousel-item">
               <img src={product8} className="d-block w-100" alt="Product 8" />
             </div>
-            <div className="carousel-item">
+            {/* <div className="carousel-item">
               <img src={product9} className="d-block w-100" alt="Product 9" />
-            </div>
+            </div> */}
           </div>
           <button
             className="carousel-control-prev"

@@ -7,6 +7,9 @@ import medicalWasteBagImage from "../assets/1.png";
 import nurseryBagImage from "../assets/3.png";
 import cutleryImage from "../assets/6.png";
 import glassStrawImage from "../assets/2.png";
+import foodContainerImage from "../assets/container.png";
+import custumizedImage from "../assets/custom.jpeg";
+import industrialPack from "../assets/industrial.jpeg";
 
 const ProductsSection = () => {
   return (
@@ -53,7 +56,7 @@ const ProductsSection = () => {
           <div className="col-6 col-md-4">
             <div className="product card border-0 shadow h-100">
               <img
-                src={nurseryBagImage}
+                src={foodContainerImage}
                 className="card-img-top"
                 alt="Nursery Bags"
               />
@@ -98,7 +101,7 @@ const ProductsSection = () => {
           <div className="col-6 col-md-4">
             <div className="product card border-0 shadow h-100">
               <img
-                src={nurseryBagImage}
+                src={industrialPack}
                 className="card-img-top"
                 alt="Nursery Bags"
               />
@@ -110,7 +113,7 @@ const ProductsSection = () => {
           <div className="col-6 col-md-4">
             <div className="product card border-0 shadow h-100">
               <img
-                src={nurseryBagImage}
+                src={custumizedImage}
                 className="card-img-top"
                 alt="Nursery Bags"
               />

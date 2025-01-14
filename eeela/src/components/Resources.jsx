@@ -2,12 +2,13 @@ import React from "react";
 import "../Styles/Resources.css";
 import { Tabs, Tab } from "react-bootstrap";
 import AwardsCarousel from "./AwardCarousel";
+import WhyCarousel from "./WhyCarousel";
 
 const Resources = () => {
   return (
     <section id="resources" className="resources-section py-5">
       <div className="container">
-        <h2 className="text-center mb-2">Resources</h2>
+        <h2 className="text-center mb-4">Resources</h2>
         <Tabs
           defaultActiveKey="certifications"
           id="resources-tabs"
@@ -61,51 +62,11 @@ const Resources = () => {
             <AwardsCarousel />
           </Tab>
 
-          {/* Why Bio-Polymers Tab */}
-          <Tab eventKey="bio-polymers" title="Why Bio-Polymers?">
-            <div className="bio-polymers">
-              <p>
-                1. Bio-polymers are derived from renewable resources, making
-                them eco-friendly.
-              </p>
-              <p>
-                2. They decompose naturally, reducing the waste burden on
-                landfills.
-              </p>
-              <p>
-                3. Bio-polymers significantly reduce carbon emissions compared
-                to traditional plastics.
-              </p>
-              <p>
-                4. They meet international composting standards, ensuring safety
-                for the environment.
-              </p>
-              <p>5. Preferred for sustainable packaging solutions worldwide.</p>
-            </div>
-          </Tab>
-
-          {/* Why Eeela Tab */}
-          <Tab eventKey="why-eeela" title="Why Eeela?">
-            <div className="why-eeela">
-              <p>
-                1. Eeela is a CPCB Certified company, adhering to the highest
-                Indian compostable standards.
-              </p>
-              <p>
-                2. We prioritize customer satisfaction by delivering
-                eco-friendly, high-quality products.
-              </p>
-              <p>
-                3. Our certifications from TÜV SÜD, TÜV Austria, and DIN EN13432
-                highlight our global reliability.
-              </p>
-              <p>
-                4. Eeela's products are designed for sustainability and
-                innovation.
-              </p>
-              <p>
-                5. Trusted by leading organizations for compostable solutions.
-              </p>
+          {/* Why Tab */}
+          <Tab eventKey="why" title="Why?">
+            <div className="why-carousel">
+              <h3>Why Choose Eeela and Bio-Polymers?</h3>
+              <WhyCarousel />
             </div>
           </Tab>
         </Tabs>

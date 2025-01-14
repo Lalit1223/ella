@@ -1,14 +1,14 @@
 .sustainability-section {
   position: relative;
-  padding: 2rem 0 ;
+  padding: 1.5rem 0 ;
   background-color: #C3CCEB;
   text-align: center;
 }
 
 .sustainability-section img {
   width: 100%; /* Full width of the device */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: cover; /* Ensure it fills the width */
+  height: 75vh; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure it fills the width */
   display: block;
   margin: 0 auto; /* Center align the image */
 }
@@ -24,7 +24,6 @@
     font-size: 1.1rem !important;
     line-height: 1.5 !important;
 }
-
 
 
 
@@ -53,5 +52,14 @@
 
 
   }
+
+  .sustainability-section img {
+    width: 100%; /* Full width of the device */
+    height: 20vh; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure it fills the width */
+    display: block;
+    margin: 0 auto; /* Center align the image */
+  }
+  
 }
 
