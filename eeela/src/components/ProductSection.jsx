@@ -8,8 +8,8 @@ import nurseryBagImage from "../assets/3.png";
 import cutleryImage from "../assets/6.png";
 import glassStrawImage from "../assets/2.png";
 import foodContainerImage from "../assets/container.png";
-import custumizedImage from "../assets/custom.jpeg";
-import industrialPack from "../assets/industrial.jpeg";
+import custumizedImage from "../assets/Home-slider-4.png";
+import industrialPack from "../assets/industrial.png";
 
 const ProductsSection = () => {
   return (

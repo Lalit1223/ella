@@ -17,6 +17,8 @@
     max-height: 400px; /* Optional: set a max-height to control the image's height */
     margin: 0 auto; /* Center the image */
     border-radius: 8px; /* Optional for rounded corners */
+    box-shadow: none !important; /* Ensures images also don't have shadows */
+
   }
   
   .carousel-control-prev-icon,
@@ -27,6 +29,11 @@
   }
 
 
+  .carousel {
+    box-shadow: none !important; /* Removes any shadow applied to the carousel */
+  }
+  
+  
   @media (max-width: 768px) {
 
     

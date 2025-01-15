@@ -89,7 +89,7 @@ const ContactUs = () => {
         <ToastContainer />
         <div className="social-icons mt-4">
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/share/1FeChTeZ6Y/?mibextid=wwXIfr"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -103,22 +103,27 @@ const ContactUs = () => {
             <FaInstagram />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/company/eeela/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedin />
           </a>
           <a
-            href="https://youtube.com"
+            href="http://www.youtube.com/@EeelaBySKYi"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaYoutube />
           </a>
-          <span className="cart-icon">
+          <a
+            className="cart-icon"
+            href="https://amazon.in/dp/B0DKP3JY41"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaShoppingCart />
-          </span>
+          </a>
         </div>
       </div>
     </section>

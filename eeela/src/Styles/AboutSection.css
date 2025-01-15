@@ -1,7 +1,6 @@
 
   .about-section {
     position: relative;
-    text-align: center;
     background-color: #C2E08D;
     padding: 2rem 0;
   }
@@ -24,6 +23,8 @@
     margin-bottom: 1.5rem;
     font-size: 1.1rem !important;
     line-height: 1.5 !important;
+    text-align: center; /* Aligns the paragraph text evenly on both sides */
+
   }
   
   

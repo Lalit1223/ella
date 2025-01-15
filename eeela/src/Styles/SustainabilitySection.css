@@ -2,7 +2,6 @@
   position: relative;
   padding: 1.5rem 0 ;
   background-color: #C3CCEB;
-  text-align: center;
 }
 
 .sustainability-section img {
@@ -16,6 +15,7 @@
 .sustainability-section h2 {
   color: #1A472A;
   font-size: 2rem !important;
+
 }
 
 .sustainability-section p {
@@ -23,6 +23,7 @@
   margin-bottom: 1.5rem;
     font-size: 1.1rem !important;
     line-height: 1.5 !important;
+    text-align: center;
 }
 
 
