@@ -94,11 +94,11 @@
 
   .hero::after {
     width: 100%; /* Larger width to fill gaps in smaller screens */
-    height: 100%; /* Larger height for seamless coverage */
+    height: 70%; /* Larger height for seamless coverage */
     background: url("../assets/rb_17149.png")  ; /* Repeat background */
     background-size: contain; /* Adjust naturally */
     animation: float 4s ease-in-out infinite; /* Retain animation */
-    top:0;
+    top:8rem;
     left: 0;
   }
 }

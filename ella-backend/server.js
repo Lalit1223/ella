@@ -4,15 +4,22 @@ const cors = require("cors");
 const dotenv = require("dotenv");
 const emailRoutes = require("./routes/emailRoutes");
 
-dotenv.config();
+dotenv.config(); // Load environment variables from .env file
 
-const app = express();
+const app = express(); // Initialize the app
 
 // Middleware
 app.use(bodyParser.json());
-app.use(cors());
 
-// Routes
+// CORS configuration for local testing
+const corsOptions = {
+  origin: "http://localhost:5175", // Allow requests from your React app in localhost
+  methods: ["GET", "POST"],
+  allowedHeaders: ["Content-Type"],
+};
+app.use(cors(corsOptions));
+
+// API Routes
 app.use("/api/email", emailRoutes);
 
 // Start the server

@@ -26,7 +26,7 @@ const ContactUs = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/email/send-message",
+        `${import.meta.env.VITE_API_URL}/api/email/send-message`, // Use Vite environment variable
         {
           method: "POST",
           headers: {

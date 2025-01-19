@@ -1,69 +1,79 @@
 .footer {
   background-color: #fff;
-  color: #1A472A; /* Slightly transparent white text */
-  padding: 10px 20px; /* Compact padding for a slim design */
+  color: #1A472A;
   font-size: 0.85rem;
 }
 
-.footer-info {
-  flex: 1; /* Allow it to occupy the remaining space */
+.footer .container {
   display: flex;
-  flex-wrap: wrap; /* Ensure responsiveness */
-  gap: 10px; /* Add spacing between items */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  justify-content: space-between;
   align-items: center;
-  color: #1A472A; /* Slightly transparent white text */
+}
+
+.footer-info {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  color: #1A472A;
   opacity: 0.6;
+  text-align: center;
 }
 
 .footer-info span {
-  display: inline-block; /* Keep all text inline */
+  display: inline-block;
 }
 
 .footer-links {
   display: flex;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
   gap: 15px; /* Spacing between links */
+  justify-content: flex-end;
 }
 
 .footer-links a {
-  color: #1A472A; /* Slightly transparent white text */
+  color: #1A472A;
   text-decoration: none;
   font-weight: 600;
+  white-space: nowrap; /* Prevent links from breaking mid-word */
 }
 
 .footer-links a:hover {
-  color: #8d92e0; /* Light green hover effect */
+  color: #8d92e0;
 }
 
 .copyright {
-  font-size: 0.9rem ;
-  color: #1A472A; /* Slightly transparent white text */
+  font-size: 0.9rem;
+  color: #1A472A;
   margin-top: 10px;
   opacity: 0.4;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
-  .footer {
-    flex-direction: column; /* Stack content vertically on smaller screens */
+  .footer .container {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align for better mobile view */
     text-align: center;
-    padding: 20px; /* Adjust padding for mobile */
+    gap: 15px; /* Add spacing between stacked items */
   }
 
   .footer-links {
-    order: 1; /* Ensure links are on the first line */
-    justify-content: center;
-    margin-bottom: 10px; /* Space between links and footer-info */
+    order: 1; /* Move links to the top */
+    justify-content: center; /* Center links on mobile */
+    gap: 10px; /* Adjust spacing for smaller screens */
   }
 
   .footer-info {
-    order: 2; /* Ensure footer info is on the second line */
+    order: 2; /* Move footer info below links */
+    text-align: center;
     justify-content: center;
-    margin-bottom: 10px; /* Space between footer-info and copyright */
   }
 
   .copyright {
-    order: 3; /* Ensure copyright is at the bottom */
-    font-size: 0.9rem;
-    color: #1A472A;
-    opacity: 0.4;
+    order: 3; /* Keep copyright at the bottom */
+    font-size: 0.8rem; /* Slightly smaller text for mobile */
   }
 }

@@ -67,7 +67,7 @@ const AwardsCarousel = () => {
       onMouseLeave={() => setAutoplay(false)} // Stop autoplay on leaving
       onClick={() => setAutoplay(true)} // Start autoplay on click
     >
-      <h2 className="text-center">Awards & Certifications</h2>
+      <h2 className="text-center">Certifications & Awards</h2>
       {/* Key added to reinitialize the Slider */}
       <Slider {...settings} key={autoplay}>
         {images.map((image, index) => (

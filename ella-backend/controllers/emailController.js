@@ -9,9 +9,9 @@ exports.sendEmail = async (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: "lmgandhi11@gmail.com", // Eeela's email address
-    subject: `New Contact Form Submission from ${email}`,
-    text: `${name} writes...>  ${message}`,
+    to: "connect@eeela.in", // Eeela's email address
+    subject: `New Contact Form Submission from  ${email}`,
+    text: `${name} writes...>  ${message} `,
   };
 
   const transporter = createTransporter();
